@@ -100,6 +100,10 @@ input {
   color: white;
 }
 @media only screen and (max-width: 400px) {
+  .container {
+    position: relative;
+    top: -60px;
+  }
   h1 {
     font-size: 8vmin;
   }
@@ -113,34 +117,11 @@ input {
     font-size: 15vmin;
     color: white;
   }
-  .inputbox {
-    width: 80vmin;
-    margin-top: 5vmin;
-    text-align: center;
-    color: white;
-  }
   input {
-    margin-top: 1.5vmin;
-    width: 35vmin;
-    padding: 1vmin;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    padding-left: 20px;
-    cursor: pointer;
-  }
-  .movement {
-    display: flex;
-    gap: 3vmin;
     margin-top: 3vmin;
-    color: white;
+    width: 35vmin;
   }
   .btn {
-    border: 1px solid rgb(255, 255, 255);
     padding: 1.5vmin 6vmin;
-    background-color: transparent;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
   }
 }
