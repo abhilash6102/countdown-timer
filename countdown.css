@@ -100,9 +100,12 @@ input {
   color: white;
 }
 @media only screen and (max-width: 400px) {
+  body {
+    overflow-y: hidden;
+  }
   .container {
     position: relative;
-    top: -60px;
+    top: -70px;
   }
   h1 {
     font-size: 8vmin;
