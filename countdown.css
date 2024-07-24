@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 420;
+  font-style: normal;
+}
+body {
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5vmin;
+  color: white;
+}
+h1 {
+  font-size: 7vmin;
+  text-align: center;
+}
+.box {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vmin;
+  gap: 5vmin;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+  width: 20vmin;
+  height: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 15vmin;
+  color: white;
+}
+
+.date {
+  width: 95vmin;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5vmin;
+  color: white;
+}
+.dys,
+.hrs,
+.mins,
+.secs {
+  width: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vmin;
+}
+.inputbox {
+  width: 60vmin;
+  margin-top: 5vmin;
+  text-align: center;
+  color: white;
+}
+input {
+  margin-top: 1.5vmin;
+  width: 25vmin;
+  padding: 1vmin;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.movement {
+  display: flex;
+  gap: 3vmin;
+  margin-top: 3vmin;
+  color: white;
+}
+.btn {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 1.5vmin 5vmin;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 8vmin;
+  }
+  .box {
+    gap: 2vmin;
+  }
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 15vmin;
+    color: white;
+  }
+  .inputbox {
+    width: 80vmin;
+    margin-top: 5vmin;
+    text-align: center;
+    color: white;
+  }
+  input {
+    margin-top: 1.5vmin;
+    width: 35vmin;
+    padding: 1vmin;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  .movement {
+    display: flex;
+    gap: 3vmin;
+    margin-top: 3vmin;
+    color: white;
+  }
+  .btn {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1.5vmin 6vmin;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+  }
+}

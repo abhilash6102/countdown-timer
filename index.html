@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="countdown.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CountDown Timer</h1>
+      <div class="box">
+        <div class="days">0</div>
+        <div class="hours">0</div>
+        <div class="minutes">0</div>
+        <div class="seconds">0</div>
+      </div>
+      <div class="date">
+        <div class="dys">DAYS</div>
+        <div class="hrs">HOURS</div>
+        <div class="mins">MINUTES</div>
+        <div class="secs">SECONDS</div>
+      </div>
+      <div class="inputbox">
+        <p>Select date and time</p>
+        <input id="date" type="date" />
+        <input id="time" type="time" />
+      </div>
+      <div class="movement">
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Stop</button>
+        <button id="reset" class="btn">Reset</button>
+      </div>
+    </div>
+
+    <script src="countdown.js"></script>
+  </body>
+</html>
