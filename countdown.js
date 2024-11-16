@@ -47,4 +47,7 @@ function reset() {
   document.querySelector(".hours").innerHTML = 0;
   document.querySelector(".minutes").innerHTML = 0;
   document.querySelector(".seconds").innerHTML = 0;
+
+  document.getElementById("date").value = "";
+  document.getElementById("time").value = "";
 }
